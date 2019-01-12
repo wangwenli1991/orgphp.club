@@ -3,18 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>开源php网站,个人平时学习的一些知识整理</title>
-<meta name="keywords" content="网站seo知识学习,网站开发技巧,编程技巧技术">
-<meta name="description" content="个人php学习只是整理,php,html,linux,nginx,网站搭建,seo优化,网络推广">
+<title>三角带批发厂家价格_欧皮特三角带_</title>
+<meta name="keywords" content="三角带_欧皮特optibelt三角带_三角带价格_三角带厂家_三角带代理">
+<meta name="description" content="进口三角带,国产三角带零售招代理,直接国外进口,常年报关进口各种类型三角带">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Place favicon.ico in the root directory -->
-<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+<!-- Place favicon.ico in bANNER="image/x-icon" href="img/favicon.ico">
 <!-- google fonts -->
-
-
-
-
-
 
 
 <!-- all css here -->
@@ -50,25 +44,26 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-4">
                 <div class="welcome">
-                    <span class="phone">Phone: +12345 67890</span> <span class="hidden-sm">/</span>
+                    <span class="phone">三角带购买电话: 156-0185-2720</span> <span class="hidden-sm">/</span>
                     <span class="email hidden-sm">Email: 2581133606@qq.com</span>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-8">
                 <div class="top-menu">
                     <ul id="currency">
-                        <li><a href="#">技能种类 <i class="fa fa-angle-down"></i></a>
+                        <li><a href="#">USD <i class="fa fa-angle-down"></i></a>
                             <ul>
-                                <li><a href="#">php</a></li>
-                                <li><a href="#">linux</a></li>
-                                <li><a href="#">laravel</a></li>
+                                <li><a href="#">EURO</a></li>
+                                <li><a href="#">AUD</a></li>
+                                <li><a href="#">Rs</a></li>
                             </ul>
                         </li>
                     </ul>
                     <ul>
-                        <li><a href="#">编程主页</a></li>
-                        <li><a href="#">PHP开发</a></li>
-
+                        <li><a href="#">三角带批发</a></li>
+                        <li><a href="#">三角带代理</a></li>
+                        <li><a href="#">三角带零售</a></li>
+                        <li><a href="#">三角带询价</a></li>
                     </ul>
                 </div>
             </div>
@@ -90,10 +85,10 @@
                     <div class="col-lg-6 col-md-5 col-sm-5 col-xs-6 hidden-xs">
                         <div class="header-search">
                             <select>
-                                <option value="0">laravel</option>
-                                <option value="1">php基础学习</option>
-                                <option value="2">linux基础知识学习</option>
-                                <option value="0">云服务器的搭建购买</option>
+                                <option value="0">所有三角带型号大全</option>
+                                <option value="1">欧皮特三角带 &amp; optibelt同步带</option>
+                                <option value="2">进口三角带 &amp; 进口三角带批发代理零售</option>
+                                <option value="0">国产三角带 &amp; 三力士三角带</option>
                                 <option value="0">Computer &amp; Office</option>
                                 <option value="0">Consumer Electronics</option>
                                 <option value="0">Jewelry &amp; Accessories</option>
@@ -121,7 +116,7 @@
                                 <option value="0">Security &amp; Protection</option>
                                 <option value="0">In All Categories</option>
                             </select>
-                            <input type="text" placeholder="search product..." />
+                            <input type="text" placeholder="查询三角带型号" />
                             <button><i class="fa fa-search"></i></button>
                         </div>
                     </div>
@@ -139,7 +134,7 @@
                                 <ul>
                                     <li>
                                         <div class="cart-img">
-                                            <a href="#"><img src="img/cart/total-cart.jpg" alt="" /></a>                                                
+                                            <a href="#"><img src="{{ asset('index/img/cart/total-cart.jpg') }}" alt="" /></a>                                                
                                         </div>
                                         <div class="cart-info">
                                             <h4><a href="#">Vestibulum suscipit</a></h4>
@@ -151,7 +146,7 @@
                                     </li>
                                     <li>
                                         <div class="cart-img">
-                                            <a href="#"><img src="img/cart/total-cart.jpg" alt="" /></a>                                                
+                                            <a href="#"><img src="{{ asset('index/img/cart/total-cart.jpg') }}" alt="" /></a>                                                
                                         </div>
                                         <div class="cart-info">
                                             <h4><a href="#">Vestibulum suscipit</a></h4>
@@ -202,11 +197,11 @@
                         <div class="main-menu">
                             <nav>
                                 <ul>
-                                    <li><a href="{{ asset('/')}}">开发网首页</a></li>
-                                    <li><a href="{{ asset('/about') }}">关于编程站点</a></li>
-                                    <li><a href="{{ asset('/shoplist') }}">编程知识点</a></li>
-                                    <li><a href="{{ asset('/single') }}">如何做好开发要点</a></li>
-                                    <li><a href="{{ asset('/contact') }}">联系开源php网</a></li>
+                                    <li><a href="{{ asset('') }}">三角带厂家</a></li>
+                                    <li><a href="{{ asset('/about') }}">三角带规格型号</a></li>
+                                    <li><a href="{{ asset('/shoplist') }}">进口三角带</a></li>
+                                    <li><a href="{{ asset('/single') }}">三角带批发零售</a></li>
+                                    <li><a href="{{ asset('/contact') }}">三角带介绍</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -223,7 +218,7 @@
                         <div class="mobile-menu">
                             <nav id="dropdown">
                                 <ul>
-                                    <li><a href="index.html">Home2</a></li>
+                                    <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="shop-list.html">Shop List</a></li>
                                     <li><a href="single-product.html">Single Product</a></li>
@@ -298,19 +293,19 @@
                     <!-- footer-widget start -->
                     <div class="col-lg-3 col-md-3 col-sm-4">
                         <div class="footer-widget">
-                            <h3>联系开源php网</h3>
+                            <h3>CONTACT US</h3>
                             <ul class="footer-contact">
                                 <li>
                                     <i class="fa fa-map-marker"> </i>
-                                    orgphp.club地址:中国上海
+                                    Addresss: 123 Pall Mall, London England
                                 </li>
                                 <li>
                                     <i class="fa fa-envelope"> </i> 
-                                    Email: 2581133606@qq.com
+                                    Email: admin@themepure.net
                                 </li>
                                 <li>
                                     <i class="fa fa-phone"> </i>
-                                    Phone: +8615601852720 
+                                    Phone: +8801912 199981  
                                 </li>
                             </ul>
                         </div>
@@ -326,12 +321,12 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="copyright">
-                            <p>Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="">开源PHP网,网站开发,网络推广知识学习</a></p>
+                            <p>Copyright &copy; 2019.三角带公司 All rights reserved.<a target="_blank" href="">三角带厂家_三角带代理_三角带批发</a></p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="payment-img">
-                            <img src="img/payment.png" alt="" />
+                            <img src="{{ asset('index/img/payment.png') }}" alt="" />
                         </div>
                     </div>
                 </div>
@@ -350,8 +345,8 @@
 <!-- jquery-ui js -->
 <script src="{{ asset('index/js/jquery-ui.min.js') }}"></script>
 <!-- RS-Plugin JS -->
-<script type="{{ asset('index/text/javascript') }}" src="{{ asset('index/lib/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
-<script type="{{ asset('index/text/javascript') }}" src="{{ asset('index/lib/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('index/lib/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('index/lib/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>
 <script src="{{ asset('index/lib/rs-plugin/rs.home.js') }}"></script>
 <!-- meanmenu js -->
 <script src="{{ asset('index/js/jquery.meanmenu.js') }}"></script>
