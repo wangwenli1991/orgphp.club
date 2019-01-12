@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="zh-cn">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -57,13 +57,13 @@
             <div class="col-lg-6 col-md-6 col-sm-4">
                 <div class="welcome">
                     <span class="phone">Phone: +12345 67890</span> <span class="hidden-sm">/</span>
-                    <span class="email hidden-sm">Email: yourname@domain.com</span>
+                    <span class="email hidden-sm">Email: 2581133606@qq.com</span>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-8">
                 <div class="top-menu">
                     <ul id="currency">
-                        <li><a href="#">USD <i class="fa fa-angle-down"></i></a>
+                        <li><a href="#">技能种类 <i class="fa fa-angle-down"></i></a>
                             <ul>
                                 <li><a href="#">php</a></li>
                                 <li><a href="#">linux</a></li>
@@ -209,11 +209,11 @@
                         <div class="main-menu">
                             <nav>
                                 <ul>
-                                    <li><a href="">Home</a></li>
-                                    <li><a href="{{ asset('/') }}">About</a></li>
-                                    <li><a href="{{ asset('/shoplist') }}">Shop List</a></li>
-                                    <li><a href="{{ asset('/single') }}">Single Product</a></li>
-                                    <li><a href="{{ asset('/contact') }}">Contact</a></li>
+                                    <li><a href="">开发网首页</a></li>
+                                    <li><a href="{{ asset('/') }}">关于编程站点</a></li>
+                                    <li><a href="{{ asset('/shoplist') }}">编程知识点</a></li>
+                                    <li><a href="{{ asset('/single') }}">如何做好开发要点</a></li>
+                                    <li><a href="{{ asset('/contact') }}">联系开源php网</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -230,7 +230,7 @@
                         <div class="mobile-menu">
                             <nav id="dropdown">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.html">Home2</a></li>
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="shop-list.html">Shop List</a></li>
                                     <li><a href="single-product.html">Single Product</a></li>
