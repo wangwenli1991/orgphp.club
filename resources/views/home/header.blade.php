@@ -12,13 +12,7 @@
 <!-- google fonts -->
 
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-6846427895221957",
-    enable_page_level_ads: true
-  });
-</script>
+
 
 
 
@@ -72,10 +66,9 @@
                         </li>
                     </ul>
                     <ul>
-                        <li><a href="#">我的学习主页</a></li>
-                        <li><a href="#">编程知识整理</a></li>
-                        <li><a href="#">如何快速搭建网站</a></li>
-                        <li><a href="#">快速学习网络seo推广</a></li>
+                        <li><a href="#">编程主页</a></li>
+                        <li><a href="#">PHP开发</a></li>
+
                     </ul>
                 </div>
             </div>
@@ -91,7 +84,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="logo">
-                            <a href=""><img src="img/logo/logo.png" alt="" /></a>
+                            <a href=""><img src="{{ asset('index/img/logo/logo.png') }}" alt="" /></a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-5 col-sm-5 col-xs-6 hidden-xs">
