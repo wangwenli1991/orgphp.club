@@ -1,14 +1,26 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="zh-cn">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Home</title>
-<meta name="description" content="">
+<title>开源php网站,个人平时学习的一些知识整理</title>
+<meta name="keywords" content="网站seo知识学习,网站开发技巧,编程技巧技术">
+<meta name="description" content="个人php学习只是整理,php,html,linux,nginx,网站搭建,seo优化,网络推广">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Place favicon.ico in the root directory -->
 <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 <!-- google fonts -->
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6846427895221957",
+    enable_page_level_ads: true
+  });
+</script>
+
+
 
 
 <!-- all css here -->
@@ -45,25 +57,25 @@
             <div class="col-lg-6 col-md-6 col-sm-4">
                 <div class="welcome">
                     <span class="phone">Phone: +12345 67890</span> <span class="hidden-sm">/</span>
-                    <span class="email hidden-sm">Email: yourname@domain.com</span>
+                    <span class="email hidden-sm">Email: 2581133606@qq.com</span>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-8">
                 <div class="top-menu">
                     <ul id="currency">
-                        <li><a href="#">USD <i class="fa fa-angle-down"></i></a>
+                        <li><a href="#">技能种类 <i class="fa fa-angle-down"></i></a>
                             <ul>
-                                <li><a href="#">EURO</a></li>
-                                <li><a href="#">AUD</a></li>
-                                <li><a href="#">Rs</a></li>
+                                <li><a href="#">php</a></li>
+                                <li><a href="#">linux</a></li>
+                                <li><a href="#">laravel</a></li>
                             </ul>
                         </li>
                     </ul>
                     <ul>
-                        <li><a href="#">My Account</a></li>
-                        <li><a href="#">Wishlist</a></li>
-                        <li><a href="#">Shopping cart</a></li>
-                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">我的学习主页</a></li>
+                        <li><a href="#">编程知识整理</a></li>
+                        <li><a href="#">如何快速搭建网站</a></li>
+                        <li><a href="#">快速学习网络seo推广</a></li>
                     </ul>
                 </div>
             </div>
@@ -85,10 +97,10 @@
                     <div class="col-lg-6 col-md-5 col-sm-5 col-xs-6 hidden-xs">
                         <div class="header-search">
                             <select>
-                                <option value="0">All Categories</option>
-                                <option value="1">Women's Clothing &amp; Accessories</option>
-                                <option value="2">Men's Clothing &amp; Accessories</option>
-                                <option value="0">Phones &amp; Telecommunications</option>
+                                <option value="0">laravel</option>
+                                <option value="1">php基础学习</option>
+                                <option value="2">linux基础知识学习</option>
+                                <option value="0">云服务器的搭建购买</option>
                                 <option value="0">Computer &amp; Office</option>
                                 <option value="0">Consumer Electronics</option>
                                 <option value="0">Jewelry &amp; Accessories</option>
@@ -197,11 +209,11 @@
                         <div class="main-menu">
                             <nav>
                                 <ul>
-                                    <li><a href="">Home</a></li>
-                                    <li><a href="{{ asset('/') }}">About</a></li>
-                                    <li><a href="{{ asset('/shoplist') }}">Shop List</a></li>
-                                    <li><a href="{{ asset('/single') }}">Single Product</a></li>
-                                    <li><a href="{{ asset('/contact') }}">Contact</a></li>
+                                    <li><a href="">开发网首页</a></li>
+                                    <li><a href="{{ asset('/') }}">关于编程站点</a></li>
+                                    <li><a href="{{ asset('/shoplist') }}">编程知识点</a></li>
+                                    <li><a href="{{ asset('/single') }}">如何做好开发要点</a></li>
+                                    <li><a href="{{ asset('/contact') }}">联系开源php网</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -218,7 +230,7 @@
                         <div class="mobile-menu">
                             <nav id="dropdown">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.html">Home2</a></li>
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="shop-list.html">Shop List</a></li>
                                     <li><a href="single-product.html">Single Product</a></li>
@@ -251,7 +263,7 @@
                     <!-- footer-widget start -->
                     <div class="col-lg-3 col-md-3 col-sm-4">
                         <div class="footer-widget">
-                            <img src="{{ asset(' /index/img/logo/logo-2.png') }}" alt="" />
+                            <img src="{{ asset('/index/img/logo/logo-2.png') }}" alt="" />
                             <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. .</p>
                             <div class="widget-icon">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
@@ -293,19 +305,19 @@
                     <!-- footer-widget start -->
                     <div class="col-lg-3 col-md-3 col-sm-4">
                         <div class="footer-widget">
-                            <h3>CONTACT US</h3>
+                            <h3>联系开源php网</h3>
                             <ul class="footer-contact">
                                 <li>
                                     <i class="fa fa-map-marker"> </i>
-                                    Addresss: 123 Pall Mall, London England
+                                    orgphp.club地址:中国上海
                                 </li>
                                 <li>
                                     <i class="fa fa-envelope"> </i> 
-                                    Email: admin@themepure.net
+                                    Email: 2581133606@qq.com
                                 </li>
                                 <li>
                                     <i class="fa fa-phone"> </i>
-                                    Phone: +8801912 199981  
+                                    Phone: +8615601852720 
                                 </li>
                             </ul>
                         </div>
@@ -321,7 +333,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="copyright">
-                            <p>Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+                            <p>Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="">开源PHP网,网站开发,网络推广知识学习</a></p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6">
