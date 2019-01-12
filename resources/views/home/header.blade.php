@@ -11,6 +11,14 @@
 <!-- Place favicon.ico in bANNER="image/x-icon" href="img/favicon.ico">
 <!-- google fonts -->
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6846427895221957",
+    enable_page_level_ads: true
+  });
+</script>
+
 
 <!-- all css here -->
 <!-- bootstrap v3.3.6 css -->
