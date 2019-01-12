@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>三角带批发厂家价格_欧皮特三角带_</title>
-<meta name="keywords" content="三角带_欧皮特optibelt三角带_三角带价格_三角带厂家_三角带代理">
-<meta name="description" content="进口三角带,国产三角带零售招代理,直接国外进口,常年报关进口各种类型三角带">
+<title>php学习，基础编程知识整理，开源PHP网</title>
+<meta name="keywords" content="php学习网，网站开发学习，网络推广技术，如何做网站，网站制作到推广">
+<meta name="description" content="本站为自己整理的基础只是的整理，平时的一些经验进行分享，总结的一些学习方法和技巧">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Place favicon.ico in bANNER="image/x-icon" href="img/favicon.ico">
 <!-- google fonts -->
@@ -44,7 +44,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-4">
                 <div class="welcome">
-                    <span class="phone">三角带购买电话: 156-0185-2720</span> <span class="hidden-sm">/</span>
+                    <span class="phone">php学习购买电话: 156-0185-2720</span> <span class="hidden-sm">/</span>
                     <span class="email hidden-sm">Email: 2581133606@qq.com</span>
                 </div>
             </div>
@@ -53,17 +53,17 @@
                     <ul id="currency">
                         <li><a href="#">USD <i class="fa fa-angle-down"></i></a>
                             <ul>
-                                <li><a href="#">EURO</a></li>
-                                <li><a href="#">AUD</a></li>
-                                <li><a href="#">Rs</a></li>
+                                <li><a href="#">linux</a></li>
+                                <li><a href="#">mysql</a></li>
+                                <li><a href="#">php</a></li>
                             </ul>
                         </li>
                     </ul>
                     <ul>
-                        <li><a href="#">三角带批发</a></li>
-                        <li><a href="#">三角带代理</a></li>
-                        <li><a href="#">三角带零售</a></li>
-                        <li><a href="#">三角带询价</a></li>
+                        <li><a href="#">laravel</a></li>
+                        <li><a href="#">wordpress</a></li>
+                        <li><a href="#">discuz</a></li>
+                        <li><a href="#">网站模板</a></li>
                     </ul>
                 </div>
             </div>
@@ -85,38 +85,15 @@
                     <div class="col-lg-6 col-md-5 col-sm-5 col-xs-6 hidden-xs">
                         <div class="header-search">
                             <select>
-                                <option value="0">所有三角带型号大全</option>
-                                <option value="1">欧皮特三角带 &amp; optibelt同步带</option>
-                                <option value="2">进口三角带 &amp; 进口三角带批发代理零售</option>
-                                <option value="0">国产三角带 &amp; 三力士三角带</option>
-                                <option value="0">Computer &amp; Office</option>
-                                <option value="0">Consumer Electronics</option>
-                                <option value="0">Jewelry &amp; Accessories</option>
-                                <option value="0">Home &amp; Garden</option>
-                                <option value="0">Luggage &amp; Bags</option>
-                                <option value="0">Shoes</option>
-                                <option value="0">Mother &amp; Kids</option>
-                                <option value="0">Sports &amp; Entertainment</option>
-                                <option value="0">Health &amp; Beauty</option>
-                                <option value="0">Watches</option>
-                                <option value="0">Toys &amp; Hobbies</option>
-                                <option value="0">Weddings &amp; Events</option>
-                                <option value="0">Novelty &amp; Special Use</option>
-                                <option value="0">Automobiles &amp; Motorcycles</option>
-                                <option value="0">Lights &amp; Lighting</option>
-                                <option value="0">Furniture</option>
-                                <option value="0">Industry &amp; Business</option>
-                                <option value="0">Electronic Components &amp; Supplies</option>
-                                <option value="0">Office &amp; School Supplies</option>
-                                <option value="0">Electrical Equipment &amp; Supplies</option>
-                                <option value="0">Gifts &amp; Crafts</option>
-                                <option value="0">Home Improvement</option>
-                                <option value="0">Food</option>
-                                <option value="0">Travel and Coupons</option>
-                                <option value="0">Security &amp; Protection</option>
-                                <option value="0">In All Categories</option>
+                                <option value="0">php</option>
+                                <option value="1">linux</option>
+                                <option value="2">mysql</option>
+                                <option value="0">nginx</option>
+                                <option value="0">windows</option>
+                                <option value="0">ubuntu</option>
+                                <option value="0">laravel</option>
                             </select>
-                            <input type="text" placeholder="查询三角带型号" />
+                            <input type="text" placeholder="查询php学习型号" />
                             <button><i class="fa fa-search"></i></button>
                         </div>
                     </div>
@@ -197,11 +174,11 @@
                         <div class="main-menu">
                             <nav>
                                 <ul>
-                                    <li><a href="{{ asset('') }}">三角带厂家</a></li>
-                                    <li><a href="{{ asset('/about') }}">三角带规格型号</a></li>
-                                    <li><a href="{{ asset('/shoplist') }}">进口三角带</a></li>
-                                    <li><a href="{{ asset('/single') }}">三角带批发零售</a></li>
-                                    <li><a href="{{ asset('/contact') }}">三角带介绍</a></li>
+                                    <li><a href="{{ asset('') }}">php学习厂家</a></li>
+                                    <li><a href="{{ asset('/about') }}">php学习规格型号</a></li>
+                                    <li><a href="{{ asset('/shoplist') }}">进口php学习</a></li>
+                                    <li><a href="{{ asset('/single') }}">php学习批发零售</a></li>
+                                    <li><a href="{{ asset('/contact') }}">php学习介绍</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -321,7 +298,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="copyright">
-                            <p>Copyright &copy; 2019.三角带公司 All rights reserved.<a target="_blank" href="">三角带厂家_三角带代理_三角带批发</a></p>
+                            <p>Copyright &copy; 2019.php学习公司 All rights reserved.<a target="_blank" href="">php学习厂家_php学习代理_php学习批发</a></p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6">
