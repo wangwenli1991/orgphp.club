@@ -202,8 +202,8 @@
                         <div class="main-menu">
                             <nav>
                                 <ul>
-                                    <li><a href="">开发网首页</a></li>
-                                    <li><a href="{{ asset('/') }}">关于编程站点</a></li>
+                                    <li><a href="{{ asset('/')}}">开发网首页</a></li>
+                                    <li><a href="{{ asset('/about') }}">关于编程站点</a></li>
                                     <li><a href="{{ asset('/shoplist') }}">编程知识点</a></li>
                                     <li><a href="{{ asset('/single') }}">如何做好开发要点</a></li>
                                     <li><a href="{{ asset('/contact') }}">联系开源php网</a></li>
