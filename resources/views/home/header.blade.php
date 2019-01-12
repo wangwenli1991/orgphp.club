@@ -174,11 +174,11 @@
                         <div class="main-menu">
                             <nav>
                                 <ul>
-                                    <li><a href="{{ asset('') }}">php学习厂家</a></li>
-                                    <li><a href="{{ asset('/about') }}">php学习规格型号</a></li>
-                                    <li><a href="{{ asset('/shoplist') }}">进口php学习</a></li>
-                                    <li><a href="{{ asset('/single') }}">php学习批发零售</a></li>
-                                    <li><a href="{{ asset('/contact') }}">php学习介绍</a></li>
+                                    <li><a href="{{ asset('') }}">开源php网首页</a></li>
+                                    <li><a href="{{ asset('/about') }}">关于开源php网</a></li>
+                                    <li><a href="{{ asset('/shoplist') }}">所有知识点列表</a></li>
+                                    <li><a href="{{ asset('/single') }}">单个知识点讲解</a></li>
+                                    <li><a href="{{ asset('/contact') }}">主动联系本站</a></li>
                                 </ul>
                             </nav>
                         </div>
