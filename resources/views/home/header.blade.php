@@ -51,7 +51,7 @@
             <div class="col-lg-6 col-md-6 col-sm-8">
                 <div class="top-menu">
                     <ul id="currency">
-                        <li><a href="#">USD <i class="fa fa-angle-down"></i></a>
+                        <li><a href="#">学习列表 <i class="fa fa-angle-down"></i></a>
                             <ul>
                                 <li><a href="#">linux</a></li>
                                 <li><a href="#">mysql</a></li>
@@ -298,7 +298,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="copyright">
-                            <p>Copyright &copy; 2019.php学习公司 All rights reserved.<a target="_blank" href="">php学习厂家_php学习代理_php学习批发</a></p>
+                            <p>Copyright &copy; 2019.php从入门到精通-开源php网 All rights reserved.<a target="_blank" href="">php如何学习，网站开发怎么学习</a></p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6">
