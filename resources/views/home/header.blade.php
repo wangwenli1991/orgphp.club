@@ -307,7 +307,9 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="copyright">
-                            <p>Copyright &copy; 2019.php从入门到精通-开源php网 All rights reserved.<a target="_blank" href="">php如何学习，网站开发怎么学习</a></p>
+                            <p>Copyright &copy; 2019.php从入门到精通-开源php网 All rights reserved.<a target="_blank" href="">php如何学习，网站开发怎么学习</a>
+                                <a href="http://www.miitbeian.gov.cn">皖ICP备17000855号-4</a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6">
