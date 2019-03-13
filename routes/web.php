@@ -24,24 +24,18 @@ Route::get('/contact', 'home\ContactController@index');
 
 
 
-
-
-
-
-
-
-Route::get('/admin1','Admin\AdminController@index');
-
-
-
-Route::get('/admin', 'Admin\AdminController@index');
-
-
-
-
 Auth::routes();
+//前台添加文字
+Route::get('/add', 'Admin\AdminController@index');
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+
+
+
+
+
 
 
 

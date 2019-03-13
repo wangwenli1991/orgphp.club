@@ -16,10 +16,10 @@ class AdminController extends Controller
     public function index()
     {
         //
+        $users=\DB::table('users')->get();
+        $articles=\DB::table('articles')->get();
 
-        $slides=\DB::table('slides')->get();
-
-        return view('admin.index',compact('slides'));
+        return view('admin.index',compact('users'),compact('articles'));
 
     }
 
