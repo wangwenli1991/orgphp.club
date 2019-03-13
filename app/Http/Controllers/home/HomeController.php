@@ -18,7 +18,7 @@ class HomeController extends Controller
     public function index()
     {
         //
-    $products=  DB::table('products')->get();
+    $articles=  DB::table('articles')->get();
 
 
 //    DB::table('users')
@@ -50,7 +50,7 @@ class HomeController extends Controller
 
 
 
-        return view('home.index',compact('products'));
+        return view('home.index',compact('articles'));
 
     }
 
