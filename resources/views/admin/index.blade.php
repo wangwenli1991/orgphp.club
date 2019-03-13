@@ -60,6 +60,7 @@
                                 <th scope="col">author</th>
                                 <th scope="col">content</th>
                                 <th scope="col">created_at</th>
+                                <th scope="col">updated_at</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -72,10 +73,12 @@
                                 <td>{{ $article->author  }}</td>
                                 <td>{{ $article->content  }}</td>
                                 <td>{{ $article->created_at  }}</td>
+                                <td>{{ $article->updated_at  }}</td>
                             </tr>
                             @endforeach
                             </tbody>
                         </table>
+
 
 
 
