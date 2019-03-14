@@ -10,7 +10,8 @@
     <script src="//cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script></head><body><nav class="navbar navbar-default" role="navigation">
 
-    <title>Document</title>
+    <title>程序开发，编程开发，php学习，网站开发学习-开源php网</title>
+    <meta name="description" content="学习php,linux,laravel,nginx,mysql,centos,macosx等常用计算机开发技术基础">
 </head>
 <body>
 
