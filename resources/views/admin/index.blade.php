@@ -61,6 +61,8 @@
                                 <th scope="col">content</th>
                                 <th scope="col">created_at</th>
                                 <th scope="col">updated_at</th>
+                                <th scope="col">修改</th>
+                                <th scope="col">删除</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -71,9 +73,11 @@
                                 <td>{{ $article->keywords  }}</td>
                                 <td>{{ $article->h1  }}</td>
                                 <td>{{ $article->author  }}</td>
-                                <td>{{ $article->content  }}</td>
+                                <td>{{ $article->h1  }}</td>
                                 <td>{{ $article->created_at  }}</td>
                                 <td>{{ $article->updated_at  }}</td>
+                                <td><a href="">点击修改</a></td>
+                                <td><a href="/delete/{{ $article->id }}">点击删除</a></td>
                             </tr>
                             @endforeach
                             </tbody>

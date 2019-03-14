@@ -25,8 +25,16 @@ Route::get('/contact', 'home\ContactController@index');
 
 
 Auth::routes();
-//前台添加文字
-Route::get('/add', 'Admin\AdminController@index');
+//文章列表页
+Route::get('/posts', 'Admin\AdminController@index');
+//文章详情页
+Route::get('/posts/{post}', 'Admin\AdminController@show');
+//创建文章
+Route::get('/posts/create', 'Admin\AdminController@create');
+Route::get('/posts/{id}', 'Admin\AdminController@update');
+//删除文章
+Route::get('/posts/delete', 'Admin\AdminController@delete');
+
 
 
 

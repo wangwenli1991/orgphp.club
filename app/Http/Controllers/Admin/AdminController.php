@@ -13,6 +13,7 @@ class AdminController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    //列表页
     public function index()
     {
         //
@@ -28,6 +29,7 @@ class AdminController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    //创建文章
     public function create()
     {
         //
@@ -39,6 +41,8 @@ class AdminController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+
+    //  创建逻辑
     public function store(Request $request)
     {
         //
@@ -50,6 +54,8 @@ class AdminController extends Controller
      * @param  \App\c  $c
      * @return \Illuminate\Http\Response
      */
+
+    //详情
     public function show(c $c)
     {
         //
@@ -61,6 +67,8 @@ class AdminController extends Controller
      * @param  \App\c  $c
      * @return \Illuminate\Http\Response
      */
+
+    //编辑页面
     public function edit(c $c)
     {
         //
@@ -73,6 +81,8 @@ class AdminController extends Controller
      * @param  \App\c  $c
      * @return \Illuminate\Http\Response
      */
+
+    //编辑逻辑
     public function update(Request $request, c $c)
     {
         //
@@ -84,6 +94,7 @@ class AdminController extends Controller
      * @param  \App\c  $c
      * @return \Illuminate\Http\Response
      */
+    //删除逻辑
     public function destroy(c $c)
     {
         //

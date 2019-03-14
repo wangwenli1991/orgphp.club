@@ -2,10 +2,6 @@
 
 @section('content')
 
-
-section content
-
-
 <ul class="list-group">
 
 @foreach($articles as $article)
