@@ -83,8 +83,9 @@
                             </tbody>
                         </table>
 
-
-                        {{ $articles->links() }}
+{{ $articles->firstItem() }}
+                        {{ $articles->links()  }}
+                       本页总共 {{ $articles->count() }} 个
 
 
 
