@@ -58,9 +58,10 @@ class AdminController extends Controller
      */
 
     //详情
-    public function show(c $c)
+    public function show(Post $post)
     {
         //
+        return view('post/show',compact('post'))
     }
 
     /**
