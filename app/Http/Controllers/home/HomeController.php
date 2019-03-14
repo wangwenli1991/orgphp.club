@@ -18,7 +18,7 @@ class HomeController extends Controller
     public function index()
     {
         //
-    $articles=  DB::table('articles')->get();
+    $articles=  DB::table('articles')->paginate(10);
 
 
 //    DB::table('users')
