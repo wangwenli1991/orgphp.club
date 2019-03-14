@@ -5,32 +5,45 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 
     <link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <script src="//cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
-    <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script></head><body><nav class="navbar navbar-default" role="navigation">
+    <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-    <title>程序开发，编程开发，php学习，网站开发学习-开源php网</title>
-    <meta name="description" content="学习php,linux,laravel,nginx,mysql,centos,macosx等常用计算机开发技术基础">
 </head>
 <body>
-
-<div class="navbar-header">
-    <a class="navbar-brand" href="#">W3Cschool</a>
+<div class="container">
+    <div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">普通输送带</a></li>
+            <li><a href="#">尼龙帆布带</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Java
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">橡胶带</a></li>
+                    <li><a href="#">EJB</a></li>
+                    <li><a href="#">Jasper Report</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">橡胶带</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">橡胶带</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </div>
-<div>
-    <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">提交按钮</button>
-    </form>
-    <button type="button" class="btn btn-default navbar-btn">
-        导航栏按钮      </button>
-</div></nav>
 
 
 
-@yield('content')
+文章带图列表页面
+
+最新文章列表
+
+页脚
+
 </body>
 </html>
