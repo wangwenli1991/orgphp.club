@@ -37,7 +37,7 @@
     </div>
 </div>
 
-
+@yield('content')
 
 文章带图列表页面
 

@@ -2,9 +2,18 @@
 
 @section('content')
 
+
+{{--{{ dd($articles) }}--}}
 <ul class="list-group">
 
+
+    <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">2013</a></li>
+        <li class="active">十一月</li></ol>
+
 @foreach($articles as $article)
+
 
 {{--   标题: {{ $article->h1  }}--}}
 
