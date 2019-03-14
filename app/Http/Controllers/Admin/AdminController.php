@@ -17,8 +17,10 @@ class AdminController extends Controller
     public function index()
     {
         //
+//$posts = \DB::table('articles')->orderBy('created_at','desc')->get();
+
         $users=\DB::table('users')->get();
-        $articles=\DB::table('articles')->get();
+        $articles=\DB::table('articles')->paginate(8);
 
         return view('admin.index',compact('users'),compact('articles'));
 

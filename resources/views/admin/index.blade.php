@@ -74,7 +74,7 @@
                                 <td>{{ $article->h1  }}</td>
                                 <td>{{ $article->author  }}</td>
                                 <td>{{ $article->h1  }}</td>
-                                <td>{{ $article->created_at  }}</td>
+                                <td>{{ $article->created_at }}</td>
                                 <td>{{ $article->updated_at  }}</td>
                                 <td><a href="">点击修改</a></td>
                                 <td><a href="/delete/{{ $article->id }}">点击删除</a></td>
@@ -83,6 +83,8 @@
                             </tbody>
                         </table>
 
+
+                        {{ $articles->links() }}
 
 
 
