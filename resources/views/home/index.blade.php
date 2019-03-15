@@ -25,7 +25,10 @@
          <span class="badge">新</span>
       </li>
 
+
 @endforeach
+    {{ $articles->links() }}
+
 </ul>
 
 
