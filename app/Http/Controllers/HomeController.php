@@ -11,10 +11,10 @@ class HomeController extends Controller
      *
      * @return void
      */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
 
     /**
      * Show the application dashboard.
@@ -23,6 +23,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+
+$result = \DB::select('select * from mac_vod limit 10');
+$menu= \DB::table('mac_type')->where('type_pid', '0')->get();
+        // $test= \DB::table('mac_vod')->get();
+        // dd($result);
+// exit(json_encode([$result]));
+        return view('movie/index',compact('result'),compact('menu'),compact('tid1'));
     }
 }

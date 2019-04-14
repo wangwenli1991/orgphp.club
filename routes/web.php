@@ -10,6 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
+Route::get('/1', 'HomeController@index')->name('home');
+
+
 use App\Task;
 use Illuminate\Http\Request;
 
