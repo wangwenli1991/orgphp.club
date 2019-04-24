@@ -1,6 +1,6 @@
 <div class="stui-header__top clearfix">					
 	<div class="stui-header__logo">
-		<a class="logo" href="{seacms:indexlink}"></a>										  
+		<a class="logo" href="{{ url('/') }}"></a>										  
 	</div>				
 	<div class="stui-header__search"> 
 		<form name="formsearch" id="formsearch" action='/{seacms:sitepath}search.php' method="post" autocomplete="off">																			
@@ -14,7 +14,7 @@
 			<a href="/{seacms:sitepath}gbook.php" title="留言反馈"><img src="/{seacms:sitepath}statics/img/icon_gbook.png" width="28" /></a>
 		</li>-->
 		<li>
-			<img src="/{seacms:sitepath}statics/img/icon_code.png" width="28" />
+			<img src="{{ url('/statics/img/icon_code.png') }}" width="28" />
 			<div class="dropdown">
 				<img src="http://v.shoutu.cn/html/video/img/qrcode.jpg" width="120" />
 				<p class="margin-0">关注微信公众号</p>

@@ -16,7 +16,9 @@
 Route::get('/1', 'HomeController@index')->name('home');
 
 //目录
-Route::get('/');
+Route::get('/dianying','HomeController@dianying');
+Route::get('/lianxuju','HomeController@lianxuju');
+Route::get('/zongyi','HomeController@zongyi');
 
 
 
