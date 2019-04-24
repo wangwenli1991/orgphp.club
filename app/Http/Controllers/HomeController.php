@@ -28,7 +28,7 @@ class HomeController extends Controller
 
 // dd($addtime);
 
-$result = \DB::select('select * from mac_vod limit 10');
+$result = \DB::select('select * from mac_vod limit 12');
 $menu= \DB::table('mac_type')->where('type_pid', '0')->get();
         // $test= \DB::table('mac_vod')->get();
         // dd($result);
@@ -83,7 +83,7 @@ return 'paget'.$page;
         dd($menu);
 
 
-        $result = \DB::select('select * from mac_vod limit 10');
+        $result = \DB::select('select * from mac_vod limit 12');
         $menu= \DB::table('mac_type')->where('type_pid', '0')->get();
                 // $test= \DB::table('mac_vod')->get();
                 // dd($result);

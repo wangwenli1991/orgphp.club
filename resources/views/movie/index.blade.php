@@ -12,6 +12,7 @@
 @include('movie.head')
 
 				<!-- 列表  -->
+						@foreach($menu as $menudata)
 				<div class="stui-pannel clearfix">												
 					<div class="stui-pannel__head clearfix">
 						<a class="text-muted pull-right" href="[menulist:link]">更多 &gt;</a>
@@ -22,13 +23,13 @@
 							{end if}
 						</span>
 						<h3 class="title">
-							<i class="iconfont icon-viewgallery"></i> 最新[menulist:typename]
+							<i class="iconfont icon-viewgallery"></i> 最新@if($menudata->type_id== @$_GET['tid'] ) class="active" @endif  >
+			<a href="/menu/{{ $menudata->type_en }}">{{ $menudata->type_name }}
 						</h3>								
-					</div>																																	
 					<ul class="stui-vodlist clearfix">
 						{seacms:videolist type=[menulist:typeid] num=12 order=time}
+					</div>																									@foreach($result as $data)								
 
-						@foreach($result as $data)
 						<li class="stui-vodlist__item">
 							<a class="stui-vodlist__thumb lazyload" href="[videolist:link]" title="[videolist:name]" data-original="[videolist:pic]">						
 								<span class="play hidden-xs"></span>	
@@ -36,16 +37,22 @@
 							</a>									
 							<h4 class="stui-vodlist__title">
 								<a href="[videolist:link]" title="[videolist:name]">
+
+									<!-- 单个项目 -->
 									{{ $data->vod_name }}
+
+
+
 								[videolist:name]
 							</a>
 							</h4>														
 						</li>
-						@endforeach
+					@endforeach
 
 						{/seacms:videolist}	
 					</ul>
 				</div>
+						@endforeach
 				{/seacms:menulist}
 				<!-- end 列表  -->
 				
