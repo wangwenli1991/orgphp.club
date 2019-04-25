@@ -33,7 +33,9 @@ $menu= \DB::table('mac_type')->where('type_pid', '0')->get();
         // $test= \DB::table('mac_vod')->get();
         // dd($result);
 // exit(json_encode([$result]));
-        return view('movie/index',compact('result'),compact('menu'),compact('tid1'));
+        $links = \DB::table('mac_link')->get();
+
+        return view('movie/index',compact('result'),compact('menu'),compact('tid1'),compact('links'));
     }
 
     public function dianying()
@@ -69,7 +71,10 @@ public function menu($menu){
                 // $test= \DB::table('mac_vod')->get();
                 // dd($result);
         // exit(json_encode([$result]));
-                return view('movie/list',compact('result'),compact('menu'),compact('tid1'));
+
+        $links = \DB::table('mac_link')->get();
+        dd($links);
+                return view('movie/list',compact('result'),compact('menu'),compact('tid1'),compact('links'));
 
     // return 'user'.$menu;
 
