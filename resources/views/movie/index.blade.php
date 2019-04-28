@@ -10,7 +10,6 @@
 		<div class="container">
 			<div class="row">
 @include('movie.head')
-
 				<!-- 列表  -->
 						@foreach($menu as $menudata)
 				<div class="stui-pannel clearfix">												
@@ -49,16 +48,17 @@
 						</li>
 					@endforeach
 
-						{/seacms:videolist}	
 					</ul>
 				</div>
 						@endforeach
-				{/seacms:menulist}
 				<!-- end 列表  -->
 				
 				<!-- 友链  -->
-				
-				@include('movie.footer')
+<h3>友情链接：</h3>
+			@foreach($links as $link)
+			                <li><a class="reacting"  href=""  ><img src="@if($link -> link_url !== '') $link -> thumb @else /images/type/type_no.png @endif" alt=""/><p>{{ $link -> link_name  }}</p></a>
+			 @endforeach
+
 				<!-- end 友链  -->
 				
 				<!-- 广告  -->
