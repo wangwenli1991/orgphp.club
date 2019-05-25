@@ -30,7 +30,7 @@
 
 						@foreach($result as $data)
 						<li class="stui-vodlist__item">
-							<a class="stui-vodlist__thumb lazyload" href="[videolist:link]" title="[videolist:name]" data-original="[videolist:pic]">						
+							<a class="stui-vodlist__thumb lazyload" href="/{{ $data->d_enname }}" title="[videolist:name]" data-original="[videolist:pic]">
 								<span class="play hidden-xs"></span>	
 								{if:"[videolist:note]" <> "" }<span class="pic-text">[videolist:note]</span>{end if}						
 							</a>									
