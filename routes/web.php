@@ -13,7 +13,7 @@
 
 //电影网站路由
 //首页
-Route::get('/1', 'HomeController@index')->name('home');
+Route::get('/movie', 'HomeController@index')->name('home');
 
 //目录
 
