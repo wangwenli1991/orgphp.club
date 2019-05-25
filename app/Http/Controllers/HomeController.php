@@ -30,7 +30,7 @@ class HomeController extends Controller
 // dd($addtime);
 
 $result = DB::select('select * from mac_vod limit 12');
-$menu= DB::table('mac_type')->where('type_pid', '0')->get();
+$menu= DB::table('mac_vod_type')->where('t_pid', '0')->get();
         // $test= DB::table('mac_vod')->get();
         // dd($result);
 // exit(json_encode([$result]));
@@ -38,7 +38,10 @@ $menu= DB::table('mac_type')->where('type_pid', '0')->get();
         // dd($links);
 
         return view('movie/index',compact('result','menu','tid1','links'));
+//    return view('movie/index',compact('result','menu'));
+
     }
+
 
     public function dianying()
     {

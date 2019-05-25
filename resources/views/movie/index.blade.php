@@ -22,8 +22,8 @@
 							{end if}
 						</span>
 						<h3 class="title">
-							<i class="iconfont icon-viewgallery"></i> 最新@if($menudata->type_id== @$_GET['tid'] ) class="active" @endif  >
-			<a href="/menu/{{ $menudata->type_en }}">{{ $menudata->type_name }}
+							<i class="iconfont icon-viewgallery"></i> 最新@if($menudata->t_id== @$_GET['tid'] ) class="active" @endif  >
+			<a href="/menu/{{ $menudata->t_enname }}">{{ $menudata->t_name }}
 						</h3>								
 					<ul class="stui-vodlist clearfix">
 						{seacms:videolist type=[menulist:typeid] num=12 order=time}
@@ -38,7 +38,7 @@
 								<a href="[videolist:link]" title="[videolist:name]">
 
 									<!-- 单个项目 -->
-									{{ $data->vod_name }}
+									{{ $data->d_name }}
 
 
 

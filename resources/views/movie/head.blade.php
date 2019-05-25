@@ -30,8 +30,8 @@
  -->
  @foreach($menu as $menudata)
 
-		<li @if($menudata->type_id== @$_GET['tid'] ) class="active" @endif  >
-			<a href="/menu/{{ $menudata->type_en }}">{{ $menudata->type_name }}</a>						
+		<li @if($menudata->t_id== @$_GET['tid'] ) class="active" @endif  >
+			<a href="/menu/{{ $menudata->t_enname }}">{{ $menudata->t_name }}</a>
 		</li>						  
 @endforeach		
 		<!--<li class="topic"><a href="{seacms:topiclink}">专题</a></li>
