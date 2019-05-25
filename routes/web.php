@@ -13,7 +13,7 @@
 
 //电影网站路由
 //首页
-Route::get('/yy', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
 //目录
 
@@ -32,7 +32,7 @@ use Illuminate\Http\Request;
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/', 'home\HomeController@index');
+Route::get('/welcome', 'home\HomeController@index');
 Route::get('/about', 'home\AboutController@index');
 Route::get('/shoplist', 'home\ShoplistController@index');
 Route::get('/single', 'home\SingleController@index');

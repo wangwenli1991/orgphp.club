@@ -36,7 +36,7 @@
 							</a>									
 							<h4 class="stui-vodlist__title">
 								<a href="[videolist:link]" title="[videolist:name]">
-									{{ $data->vod_name }}
+									{{ $data->d_name }}
 								[videolist:name]
 							</a>
 							</h4>														

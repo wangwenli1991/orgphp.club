@@ -11,3 +11,9 @@
 4 php artisan migrate 
 5 php artisan db:seed
 6 安装完成
+
+
+内置数据库
+
+做到写分类目录,菜单目录调试中
+目录点击做跳转好了

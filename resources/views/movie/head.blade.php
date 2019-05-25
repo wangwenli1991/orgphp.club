@@ -25,7 +25,7 @@
 <div class="stui-header__menu clearfix">
 	<span class="more hidden-xs">今日更新“{seacms:daycount}”部影片</span>	  			  	
 	<ul class="clearfix">	  		
-		<li class="home"><a href="/1/">首页</a></li>
+		<li class="home"><a href="/">首页</a></li>
 <!-- 		{if:[menulist:typeid]={seacms:currenttypeid}{elseif:[menulist:typeid]={playpage:upid}} 
  -->
  @foreach($menu as $menudata)

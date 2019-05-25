@@ -55,22 +55,16 @@ $menu= DB::table('mac_vod_type')->where('t_pid', '0')->get();
 
 // 匿名函数获取get传递过来的menu的值
 public function menu($menu){
-
-    $type_id=DB::table('mac_type')->where('type_en',$menu)->pluck('type_id');
-    // $type_id= DB::table('mac_type')
-    //             ->where('type_en',$menu)
-    //             ->pluck('type_id')
-    //             ->get();
-                // dd($type_id);
-        // $result = DB::select('select * from mac_vod limit 10');
+//        查询表type_id的内容
+    $type_id=DB::table('mac_vod_type')->where('t_enname',$menu)->pluck('t_id');
     //查看当前分类目录的10个信息
         // $result = DB::select('select * from mac_vod limit 10')->where('type_id','3');
         $result = DB::table('mac_vod')
                     ->limit('10')
-                    ->where('type_id',$type_id)
+                    ->where('d_id',$type_id)
                     ->get();
 
-        $menu= DB::table('mac_type')->where('type_pid', '0')->get();
+        $menu= DB::table('mac_vod_type')->where('t_pid', '0')->get();
         // $menu= DB::table('mac_vod')->where('type_pid', '3')->get();
 
                 // $test= DB::table('mac_vod')->get();
