@@ -24,6 +24,9 @@ Route::get('/good/{page?}','HomeController@good');
 
 Route::get('/zongyi','HomeController@zongyi');
 
+//detail  电影详情页
+Route::get('/{detail}','HomeController@detail');
+
 
 
 use App\Task;
