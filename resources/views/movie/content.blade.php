@@ -21,7 +21,7 @@
 							<div class="stui-content__detail">							    	
 								<h3 class="title">{playpage:name}</h3>	
 								<p class="data">
-									<span class="text-muted hidden-xs">类型：</span><a href="{playpage:typelink}">{playpage:typename}</a>
+									<span class="text-muted hidden-xs">类型：</span><a href="{playpage:typelink}">1</a><a href="{playpage:typelink}">{playpage:typename}</a>
 									<span class="split-line"></span>
 									<span class="text-muted hidden-xs">地区：</span><a href="/{seacms:sitepath}search.php?searchtype=5&tid={playpage:typeid}&area={playpage:publisharea}">{playpage:publisharea}</a>
 									<span class="split-line"></span>

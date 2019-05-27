@@ -2,12 +2,15 @@
 {seacms:strip}
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		{seacms:load seo/channel.html}	
-		{seacms:load header.html}			
+		@include('movie.seo.index')
+		@include('movie.header')
+
 	</head>
 	<body>			
 		<div class="container">
 			<div class="row">
+				@include('movie.head')
+
 				{seacms:top}			
 				<div class="stui-pannel clearfix">
 					<!-- 筛选  -->
@@ -16,16 +19,22 @@
 							<span class="text-muted">按分类</span>
 						</li>
 						{seacms:smallmenulist type=son}
-						<li{if: {channelpage:typeid} = [smallmenulist:typeid]} class="active"{end if}><a href="[smallmenulist:link]">[smallmenulist:typename]</a></li>
-						{/seacms:smallmenulist}								
+						@foreach($result as $rs)
+						<li{if: {channelpage:typeid} = [smallmenulist:typeid]} class="active"{end if}><a href="[smallmenulist:link]">{{  $rs->d_type  }}[smallmenulist:typename]</a></li>
+						@endforeach
+							{/seacms:smallmenulist}
+
+
 					</ul>
 					<ul class="stui-screen__list clearfix">
 						<li>
 							<span class="text-muted">按地区</span>
 						</li>
+						@foreach($yy6080_vod as $yy)
 						{seacms:areacaslist}
-						<li><a href="[areacaslist:link]" title="[areacaslist:value]">[areacaslist:value]</a></li>
+						<li><a href="[areacaslist:link]" title="[areacaslist:value]">[areacaslist:value] {{ $yy->d_area  }}</a></li>
 						{/seacms:areacaslist}
+							@endforeach
 					</ul>
 					<ul class="stui-screen__list clearfix">
 						<li>

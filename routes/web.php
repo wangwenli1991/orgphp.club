@@ -22,10 +22,8 @@ Route::get('/menu/{menu}','HomeController@menu');
 // 详情页传参
 Route::get('/good/{page?}','HomeController@good');
 
-Route::get('/zongyi','HomeController@zongyi');
-
-//detail  电影详情页
-Route::get('/{detail}','HomeController@detail');
+//chanell
+Route::get('channel/{channel}','HomeController@channel');
 
 
 
