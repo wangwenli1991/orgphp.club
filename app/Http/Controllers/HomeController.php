@@ -46,7 +46,7 @@ class HomeController extends Controller
         $menu= DB::table('mac_vod_type')->where('t_pid', '0')->get();
         // $menu= DB::table('mac_vod')->where('type_pid', '3')->get();
         $links = DB::table('mac_link')->get();
-        $yy6080_vod=DB::table('yy6080_vod')->groupBy('d_area');
+        $yy6080_vod=DB::table('yy6080_vod')->get()->groupBy('d_language','d_year');
         dd($yy6080_vod);
         return view('movie/channel',compact('result','menu','tid1','links','yy6080_vod'));
     }
