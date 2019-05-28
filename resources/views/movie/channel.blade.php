@@ -18,11 +18,12 @@
 						<li>
 							<span class="text-muted">按分类</span>
 						</li>
-						{seacms:smallmenulist type=son}
-						@foreach($result as $rs)
-						<li{if: {channelpage:typeid} = [smallmenulist:typeid]} class="active"{end if}><a href="[smallmenulist:link]">{{  $rs->d_type  }}[smallmenulist:typename]</a></li>
+						@foreach($mac_vod as $d_type)
+						<li{if: {channelpage:typeid} = [smallmenulist:typeid]} class="active"{end if}><a href="[smallmenulist:link]">
+								type
+								type
+							</a></li>
 						@endforeach
-							{/seacms:smallmenulist}
 
 
 					</ul>
@@ -30,19 +31,20 @@
 						<li>
 							<span class="text-muted">按地区</span>
 						</li>
-						@foreach($yy6080_vod as $yy)
-						{seacms:areacaslist}
-						<li><a href="[areacaslist:link]" title="[areacaslist:value]">[areacaslist:value] {{ $yy->d_area  }}</a></li>
-						{/seacms:areacaslist}
-							@endforeach
+
+						@foreach($mac_vod as $area)
+						<li><a href="[areacaslist:link]" title="[areacaslist:value]">area</a></li>
+						@endforeach
 					</ul>
 					<ul class="stui-screen__list clearfix">
 						<li>
 							<span class="text-muted">按年份</span>
 						</li>
-						{seacms:yearcaslist}
-						<li><a href="[yearcaslist:link]" title="[yearcaslist:value]">[yearcaslist:value]</a></li>
-						{/seacms:yearcaslist}
+						@foreach($mac_vod as $d_year)
+						<li><a href="[yearcaslist:link]" title="[yearcaslist:value]">
+								year
+							</a></li>
+						@endforeach
 					</ul>
 					<!-- end 筛选  -->
 					

@@ -46,9 +46,12 @@ class HomeController extends Controller
         $menu= DB::table('mac_vod_type')->where('t_pid', '0')->get();
         // $menu= DB::table('mac_vod')->where('type_pid', '3')->get();
         $links = DB::table('mac_link')->get();
-        $yy6080_vod=DB::table('yy6080_vod')->get()->groupBy('d_language','d_year');
-        dd($yy6080_vod);
-        return view('movie/channel',compact('result','menu','tid1','links','yy6080_vod'));
+        $mac_vod=DB::table('mac_vod')->get()->groupBy('d_area');
+//        $yy6080_vod_area=DB::table('yy6080_vod')->get()->groupBy('d_area');
+//        $yy6080_vod_year_=DB::table('yy6080_vod')->get()->groupBy('d_year');
+//dd($yy6080_vod);
+//        dd($mac_vod);
+        return view('movie/channel',compact('result','menu','tid1','links','mac_vod'));
     }
 
 // 匿名函数获取get传递过来的menu的值
