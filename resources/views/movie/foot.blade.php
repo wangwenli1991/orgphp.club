@@ -1,6 +1,6 @@
 <div class="stui-foot clearfix">
 	<p><a href="{seacms:indexlink}">返回首页</a><span class="split-line"></span><a href="javascript:scroll(0, 0)">返回顶部</a></p>
-	<div class="hidden-xs">{seacms:copyright}</div>						
+	<div class="hidden-xs">{seacms:copyright}</div>
 	<p class="text-muted visible-xs">Copyright © 2008-2018</p>
 </div>
 <div class="hide">{seacms:sitevisitjs}</div>

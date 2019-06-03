@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-{seacms:strip}
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		@include('movie.seo.index')
@@ -19,10 +19,14 @@
 							<span class="text-muted">按分类</span>
 						</li>
 						@foreach($mac_vod as $d_type)
-						<li{if: {channelpage:typeid} = [smallmenulist:typeid]} class="active"{end if}><a href="[smallmenulist:link]">
-								type
+{{--		在li里面的					{if: {channelpage:typeid} = [smallmenulist:typeid]} class="active"{end if}--}}
+						<li>
+							<span class="text-muted">
+
+							<a href="[smallmenulist:link]">
 								type
 							</a></li>
+							</span>
 						@endforeach
 
 
@@ -80,6 +84,8 @@
 			</div>
 		</div>
 		{seacms:foot}
+sdf
+
 	</body>
 </html>
 {/seacms:strip}
