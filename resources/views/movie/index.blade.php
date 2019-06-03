@@ -16,10 +16,15 @@
 					<div class="stui-pannel__head clearfix">
 						<a class="text-muted pull-right" href="[menulist:link]">更多 &gt;</a>
 						<span class="hidden-sm hidden-xs pull-right">
+							@foreach($movie as $moviedata)
+							{{ $moviedata  }}
+							@endforeach
+<!--
 							{seacms:smallmenulist type=[menulist:typeid]}
 							{if:[smallmenulist:i] < 11}
-							<a href="[smallmenulist:link]" class="text-muted">[smallmenulist:typename]</a> <span class="split-line"></span>
-							{end if}
+							-->
+{{--							<a href="[smallmenulist:link]" class="text-muted">[smallmenulist:typename]</a> <span class="split-line"></span>--}}
+{{--							{end if}--}}
 						</span>
 						<h3 class="title">
 							<i class="iconfont icon-viewgallery"></i> 最新@if($menudata->t_id== @$_GET['tid'] ) class="active" @endif  >

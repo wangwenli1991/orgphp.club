@@ -26,11 +26,31 @@ class HomeController extends Controller
     {
     // $addtime= DB::table('mac_vod')->whereDate('created_at', date("Y-m-d"));
     $result = DB::select('select * from mac_vod limit 12');
+
     $menu= DB::table('mac_vod_type')->where('t_pid', '0')->get();
-        // $test= DB::table('mac_vod')->get();
 // exit(json_encode([$result]));
+        //每个电影
+//        $movie = DB::table('yy6080_vod')
+//                            ->latest('d_addtime')
+//                            ->limit(3)
+//                            ->get();
+
+//        ->join('contacts', 'users.id', '=', 'contacts.user_id')
+//多表联查
+        $movie=DB::table('yy6080_vod')
+            ->join('yy6080_vod_type','yy6080_vod.d_type','=','yy6080_vod_type.t_sort')
+            ->select('yy6080_vod_type.t_name','yy6080_vod.d_addtime')
+            ->latest('d_addtime')
+//             ->distinct('t_name')
+            ->limit('12')
+            ->get()
+            ->groupBy('t_name')
+        ->toArray();
+
+//        dd($movie);
+
         $links = DB::table('mac_link')->get();
-        return view('movie/index',compact('result','menu','tid1','links'));
+        return view('movie/index',compact('result','menu','tid1','links','movie'));
     }
 
     //点击菜单进入的
